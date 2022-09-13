@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.2s ease;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  html {
+    overflow-x: hidden; /* x ekseninindeki scroll u kapatır*/
+  }
+  body {
+    background-color: #e84242;
+    height: 200vh;
+  }
+  /* header start */
+  .header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 20px 7%;
+    border-radius: 90px;
+    box-shadow: 3px 3px 8px gray;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .imglogo {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+  }
+  .navbar a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: black;
+    border-bottom: 1px solid transparent;
+  }
+  .navbar a:hover {
+    border-color: #e84242;
+    padding-bottom: 5px;
+  }
+  .head button {
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+  }
+  /* header end */
+  
+  /*menu start*/
+  
+  .home {
+    background: url(pexels-harrison-haines-5247937.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: -198px;
+    padding: 0 7%;
+  }
+  .home h1 {
+    font-size: 80px;
+  }
+  .home p {
+    font-size: 24px;
+    line-height: 35px;
+    word-spacing: 5px;
+    text-align: justify;
+    text-indent: 35px;
+  }
+  h2{
+    font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .menu-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* padding: 60px;
+    background-color: white;
+    border-radius: 50px; */
+  }
+  .box1,.box2,.box3,.box4{
+    height: 450px;
+    margin-left: 100px;
+    /* margin: auto; */
+    font-size: 22px;
+    border: 3px solid white;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 40px;
+  }
+  .box-image img{
+    border-radius: 40px;
+    height: 200px;
+  }
+  .menu-container p{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+  }
+  .box-price{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .box-price span{
+    text-decoration: line-through red;
+    margin-left: 10px;
+  }
+  
+  .box-bottom{
+    border: 1px solid red;
+    width:150px ;
+    height: 80px;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 22px;
+    background-color: #e84242;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px gray;
+  }
+  .box-bottom a{
+    color: white;
+    font-size: 24px;
+  }
+  .box-bottom:hover{
+    transform: scale(1.2) ;    
+    transition: 2s;
+  }
+  .box1:hover,.box2:hover,.box3:hover,.box4:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+  }
